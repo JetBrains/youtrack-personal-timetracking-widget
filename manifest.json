@@ -1,0 +1,24 @@
+{
+  "key": "personal-time-tracking",
+  "version": "0.0.1",
+  "name": "Personal Time Tracking",
+  "description": "Displays daily and cumulative totals for spent time that you have added to issues in YouTrack.",
+  "applicationName": "YouTrack",
+  "author": "YouTrack Team",
+  "dependencies": {
+    "YouTrack": ">=2018.2.45143",
+    "Hub": ">=2018.2"
+  },
+  "products": {
+    "YouTrack": ">=2018.2.45143",
+    "Hub": ">=2018.2"
+  },
+  "capabilities": {
+    "topNavigation": true
+  },
+  "view": {
+    "defaultWidth": 2,
+    "defaultHeight": 3,
+    "fadeOut": false
+  }
+}

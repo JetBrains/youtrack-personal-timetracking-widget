@@ -1,0 +1,19 @@
+@import '~@jetbrains/ring-ui/components/global/global';
+
+.widget-form {
+  &__footer {
+    position: fixed !important;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 2*$ring-unit 0 2*$ring-unit 2*$ring-unit;
+    background-color: white;
+    box-shadow: 0 -6px 10px -8px $ring-border-color;
+  }
+
+
+  &__footer-error {
+    color: $ring-error-color;
+    margin-bottom: $ring-unit;
+  }
+}

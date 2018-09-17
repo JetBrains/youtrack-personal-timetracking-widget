@@ -1,0 +1,103 @@
+@import '~@jetbrains/ring-ui/components/global/global';
+
+.personal-time-tracking {
+  $selected-background-color: #e5f4ff;
+
+  .issue-id {
+    white-space: nowrap;
+  }
+
+  .issue-id_resolved {
+    color: $ring-dark-gray-color !important;
+    text-decoration: line-through;
+  }
+
+  &__load-more {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: auto;
+
+    &:hover {
+      background-color: $selected-background-color;
+    }
+  }
+
+  &__work-items {
+    margin-bottom: 48px;
+  }
+
+  &__work-item {
+    padding: 6px 0 6px 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $selected-background-color;
+    }
+  }
+
+  &__day-header {
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: default;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: $ring-gray-color;
+  }
+
+  &__day-header_empty {
+    color: #ccc;
+    font-weight: lighter;
+    font-size: $ring-font-size-smaller;
+  }
+
+  &__day {
+    margin: $ring-unit 0 2*$ring-unit 0;
+  }
+
+  &__total {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    padding: 4px 2*$ring-unit;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    line-height: 22px;
+  }
+
+  &__total-title {
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    color: $ring-dark-gray-color;
+  }
+
+  &__total-value {
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: default;
+    white-space: nowrap;
+    text-align: right;
+  }
+}
+
+
+//TODO: this block is copied from dashboard-addons. Reuse instead of copying
+/**
+    This is the default styles for custom widgets
+*/
+body {
+  margin: 0;
+  padding: 16px;
+  font-size: 13px;
+  color: #444;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
