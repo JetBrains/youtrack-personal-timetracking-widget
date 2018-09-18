@@ -11,4 +11,73 @@ msgstr ""
 "Last-Translator: jetbrains <mikhail.vink@jetbrains.com>\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
-"PO-Revision-Date: 2018-09-13 21:11\n"
+"PO-Revision-Date: 2018-09-18 11:40\n"
+
+#: src/app/personal-time-tracking-settings.js:100
+msgid "Cancel"
+msgstr ""
+
+#: src/app/personal-time-tracking-settings.js:64
+msgid "Cannot connect to selected YouTrack"
+msgstr ""
+
+#: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
+msgid "January|February|March|April|May|June|July|August|September|October|November|December"
+msgstr ""
+
+#: node_modules/hub-dashboard-addons/components/localization/src/localization.js:89
+msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+msgstr ""
+
+#: src/app/personal-time-tracking-widget.js:37
+msgid "Personal Time Tracking"
+msgstr ""
+
+#: src/app/personal-time-tracking-settings.js:94
+msgid "Save"
+msgstr ""
+
+#: src/app/components/youtrack-selector.js:52
+msgid "Select YouTrack"
+msgstr ""
+
+#: src/app/personal-time-tracking-widget.js:292
+msgid "Show one more week"
+msgstr ""
+
+#: src/app/components/response-error-message.js:4
+msgid "Something went wrong =("
+msgstr ""
+
+#: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
+msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
+msgstr ""
+
+#: node_modules/hub-dashboard-addons/components/localization/src/localization.js:87
+msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
+msgstr ""
+
+#: src/app/period-statistics.js:139
+msgid "Today"
+msgstr ""
+
+#: src/app/personal-time-tracking-widget.js:255
+msgid "Total spent time for this week"
+msgstr ""
+
+#: src/app/personal-time-tracking-widget.js:256
+msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
+msgstr ""
+
+#: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
+msgid "am|pm"
+msgstr ""
+
+#: src/app/period-statistics.js:57
+msgid "{{type}} for {{workPeriod}}"
+msgstr ""
+
+#: src/app/period-statistics.js:60
+msgid "{{working}} on {{issueName}}"
+msgstr ""
+
