@@ -11,73 +11,73 @@ msgstr ""
 "Last-Translator: jetbrains <mikhail.vink@jetbrains.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2018-09-18 11:40\n"
+"PO-Revision-Date: 2018-09-21 15:30\n"
 
 #: src/app/personal-time-tracking-settings.js:100
 msgid "Cancel"
-msgstr ""
+msgstr "取り消す"
 
 #: src/app/personal-time-tracking-settings.js:64
 msgid "Cannot connect to selected YouTrack"
-msgstr ""
+msgstr "選択されたYouTrackに接続できません"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
 msgid "January|February|March|April|May|June|July|August|September|October|November|December"
-msgstr ""
+msgstr "1月|2月|3月|4月|5月|6月|7月|8月|9月|10月|11月|12月"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:89
 msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
-msgstr ""
+msgstr "1月|2月|3月|4月|5月|6月|7月|8月|9月|10月|11月|12月"
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
-msgstr ""
+msgstr "個人タイムトラッキング"
 
 #: src/app/personal-time-tracking-settings.js:94
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: src/app/components/youtrack-selector.js:52
 msgid "Select YouTrack"
-msgstr ""
+msgstr "YouTrackを選択"
 
 #: src/app/personal-time-tracking-widget.js:292
 msgid "Show one more week"
-msgstr ""
+msgstr "さらに1週間表示"
 
 #: src/app/components/response-error-message.js:4
 msgid "Something went wrong =("
-msgstr ""
+msgstr "不明なエラーが発生しました =("
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
 msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
-msgstr ""
+msgstr "日曜日|月曜日|火曜日|水曜日|木曜日|金曜日|土曜日"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:87
 msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
-msgstr ""
+msgstr "日|月|火|水|木|金|土"
 
 #: src/app/period-statistics.js:139
 msgid "Today"
-msgstr ""
+msgstr "今日"
 
 #: src/app/personal-time-tracking-widget.js:255
 msgid "Total spent time for this week"
-msgstr ""
+msgstr "今週の合計経過時間"
 
 #: src/app/personal-time-tracking-widget.js:256
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
-msgstr ""
+msgstr "{{numberOfWeeksToShow}}週間の合計経過時間"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
-msgstr ""
+msgstr "am|pm"
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"
-msgstr ""
+msgstr "{{type}}に{{workPeriod}}"
 
 #: src/app/period-statistics.js:60
 msgid "{{working}} on {{issueName}}"
-msgstr ""
+msgstr "{{issueName}}で{{working}}"
 

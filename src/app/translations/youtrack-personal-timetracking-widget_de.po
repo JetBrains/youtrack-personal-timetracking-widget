@@ -11,73 +11,73 @@ msgstr ""
 "Last-Translator: jetbrains <mikhail.vink@jetbrains.com>\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2018-09-18 11:40\n"
+"PO-Revision-Date: 2018-09-21 15:30\n"
 
 #: src/app/personal-time-tracking-settings.js:100
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #: src/app/personal-time-tracking-settings.js:64
 msgid "Cannot connect to selected YouTrack"
-msgstr ""
+msgstr "Zum ausgewählten YouTrack kann keine Verbindung aufgebaut werden"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
 msgid "January|February|March|April|May|June|July|August|September|October|November|December"
-msgstr ""
+msgstr "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:89
 msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
-msgstr ""
+msgstr "Jan|Feb|Mär|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez"
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
-msgstr ""
+msgstr "Persönliche Zeiterfassung"
 
 #: src/app/personal-time-tracking-settings.js:94
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #: src/app/components/youtrack-selector.js:52
 msgid "Select YouTrack"
-msgstr ""
+msgstr "YouTrack auswählen"
 
 #: src/app/personal-time-tracking-widget.js:292
 msgid "Show one more week"
-msgstr ""
+msgstr "Eine weitere Woche anzeigen"
 
 #: src/app/components/response-error-message.js:4
 msgid "Something went wrong =("
-msgstr ""
+msgstr "Leider ist etwas schiefgegangen"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
 msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
-msgstr ""
+msgstr "Sonntag|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:87
 msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
-msgstr ""
+msgstr "So|Mo|Di|Mi|Do|Fr|Sa"
 
 #: src/app/period-statistics.js:139
 msgid "Today"
-msgstr ""
+msgstr "Heute"
 
 #: src/app/personal-time-tracking-widget.js:255
 msgid "Total spent time for this week"
-msgstr ""
+msgstr "Gesamter Zeitaufwand für diese Woche"
 
 #: src/app/personal-time-tracking-widget.js:256
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
-msgstr ""
+msgstr "Gesamter Zeitaufwand für {{numberOfWeeksToShow}} Wochen"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
-msgstr ""
+msgstr "AM|PM"
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"
-msgstr ""
+msgstr "{{type}} für {{workPeriod}}"
 
 #: src/app/period-statistics.js:60
 msgid "{{working}} on {{issueName}}"
-msgstr ""
+msgstr "{{working}} an {{issueName}}"
 

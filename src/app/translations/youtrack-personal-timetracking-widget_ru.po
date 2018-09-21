@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: jetbrains <mikhail.vink@jetbrains.com>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2018-09-18 11:41\n"
+"PO-Revision-Date: 2018-09-21 15:31\n"
 
 #: src/app/personal-time-tracking-settings.js:100
 msgid "Cancel"
