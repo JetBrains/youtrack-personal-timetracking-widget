@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import Panel from '@jetbrains/ring-ui/components/panel/panel';
 import Button from '@jetbrains/ring-ui/components/button/button';
 import {i18n} from 'hub-dashboard-addons/dist/localization';
+import ServiceSelect from '@jetbrains/hub-widget-ui/dist/service-select';
 
-import YouTrackSelector from './components/youtrack-selector';
 import {responseErrorMessage} from './components/response-error-message';
 
 import './components/widget-form.scss';
@@ -73,11 +73,15 @@ class PersonalTimeTrackingWidget extends React.Component {
   render() {
     return (
       <div className="ring-form">
-        <YouTrackSelector
-          selectedYouTrack={this.state.youTrack}
-          youTracks={this.state.youTracks}
-          onChange={this.changeYouTrack}
-        />
+        {
+          (this.state.youTracks || []).length > 1 &&
+          <ServiceSelect
+            placeholder={i18n('Select YouTrack')}
+            selectedService={this.state.youTrack}
+            serviceList={this.state.youTracks}
+            onServiceSelect={this.changeYouTrack}
+          />
+        }
         <Panel className="widget-form__footer">
           {
             this.state.isConnectionError &&
