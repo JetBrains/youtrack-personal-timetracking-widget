@@ -15,7 +15,7 @@ import PeriodStatistics from './period-statistics';
 import workTimePresentation from './work-time-presentation';
 import PersonalTimeTrackingSettings from './personal-time-tracking-settings';
 
-const MIN_YT_VERSION = '2018.2.42284';
+const MIN_YT_VERSION = '2018.2.45514';
 
 class PersonalTimeTrackingWidget extends React.Component {
 
