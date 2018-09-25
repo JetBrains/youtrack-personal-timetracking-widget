@@ -1,13 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Panel from '@jetbrains/ring-ui/components/panel/panel';
-import Button from '@jetbrains/ring-ui/components/button/button';
 import {i18n} from 'hub-dashboard-addons/dist/localization';
 import ServiceSelect from '@jetbrains/hub-widget-ui/dist/service-select';
+import ConfigurationForm from '@jetbrains/hub-widget-ui/dist/configuration-form';
 
 import {responseErrorMessage} from './components/response-error-message';
-
-import './components/widget-form.scss';
 
 class PersonalTimeTrackingWidget extends React.Component {
 
@@ -72,39 +69,20 @@ class PersonalTimeTrackingWidget extends React.Component {
 
   render() {
     return (
-      <div className="ring-form">
-        {
-          (this.state.youTracks || []).length > 1 &&
-          <ServiceSelect
-            placeholder={i18n('Select YouTrack')}
-            selectedService={this.state.youTrack}
-            serviceList={this.state.youTracks}
-            onServiceSelect={this.changeYouTrack}
-          />
-        }
-        <Panel className="widget-form__footer">
-          {
-            this.state.isConnectionError &&
-            <div className="widget-form__footer-error">
-              { this.state.connectionError }
-            </div>
-          }
-          <Button
-            blue={true}
-            loader={this.state.isLoading}
-            disabled={this.state.isConnectionError}
-            onClick={this.onSubmitConfigurationForm}
-          >
-            { i18n('Save') }
-          </Button>
-          <Button
-            onClick={this.props.onCancel}
-            loader={this.state.isLoading}
-          >
-            { i18n('Cancel') }
-          </Button>
-        </Panel>
-      </div>
+      <ConfigurationForm
+        warning={this.state.isConnectionError ? this.state.connectionError : ''}
+        isInvalid={this.state.isConnectionError}
+        isLoading={this.state.isLoading}
+        onSave={this.onSubmitConfigurationForm}
+        onCancel={this.props.onCancel}
+      >
+        <ServiceSelect
+          placeholder={i18n('Select YouTrack')}
+          selectedService={this.state.youTrack}
+          serviceList={this.state.youTracks}
+          onServiceSelect={this.changeYouTrack}
+        />
+      </ConfigurationForm>
     );
   }
 }

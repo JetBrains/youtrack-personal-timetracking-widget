@@ -43,7 +43,7 @@ const webpackConfig = () => ({
       },
       {
         test: /\.css$/,
-        include: join(__dirname, 'node_modules', '@jetbrains', 'hub-widget-ui'),
+        exclude: [componentsPath, ringUiWebpackConfig.componentsPath],
         use: ['style-loader', 'css-loader']
       },
       {
