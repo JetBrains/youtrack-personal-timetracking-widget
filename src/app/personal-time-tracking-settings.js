@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 import {i18n} from 'hub-dashboard-addons/dist/localization';
 import ServiceSelect from '@jetbrains/hub-widget-ui/dist/service-select';
 import ConfigurationForm from '@jetbrains/hub-widget-ui/dist/configuration-form';
-
-import {responseErrorMessage} from './components/response-error-message';
+import HttpErrorHandler from '@jetbrains/hub-widget-ui/dist/http-error-handler';
 
 class PersonalTimeTrackingWidget extends React.Component {
 
@@ -57,7 +56,7 @@ class PersonalTimeTrackingWidget extends React.Component {
         connectionError: ''
       });
     } catch (err) {
-      const connectionError = responseErrorMessage(
+      const connectionError = HttpErrorHandler.getMessage(
         err, i18n('Cannot connect to selected YouTrack')
       );
       this.setState({
