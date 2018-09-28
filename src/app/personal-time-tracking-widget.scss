@@ -8,15 +8,19 @@
   }
 
   .issue-id_resolved {
-    color: $ring-dark-gray-color !important;
     text-decoration: line-through;
+
+    color: $ring-dark-gray-color !important;
   }
 
   &__load-more {
-    text-align: center;
     display: block;
+
     width: 100%;
+
     margin: auto;
+
+    text-align: center;
 
     &:hover {
       background-color: $selected-background-color;
@@ -28,11 +32,13 @@
   }
 
   &__work-item {
-    padding: 6px 0 6px 12px;
-    white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+
+    padding: 6px 0 6px 12px;
+
     cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
     &:hover {
       background-color: $selected-background-color;
@@ -40,20 +46,27 @@
   }
 
   &__day-header {
+    overflow: hidden;
+
+    width: 100%;
+
+    cursor: default;
+
+    white-space: nowrap;
+
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    cursor: default;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
+
     color: $ring-gray-color;
   }
 
   &__day-header_empty {
     color: #ccc;
-    font-weight: lighter;
+
     font-size: $ring-font-size-smaller;
+
+    font-weight: lighter;
   }
 
   &__day {
@@ -62,29 +75,36 @@
 
   &__total {
     position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
     z-index: 2;
-    padding: 4px 2*$ring-unit;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
     overflow: hidden;
+
+    padding: 4px 2*$ring-unit;
+
     background-color: #f7f7f7;
+
     line-height: 22px;
   }
 
   &__total-title {
+    overflow: hidden;
+
     cursor: default;
     white-space: nowrap;
-    overflow: hidden;
+
     color: $ring-dark-gray-color;
   }
 
   &__total-value {
-    font-weight: bold;
+    cursor: default;
+    text-align: right;
+    white-space: nowrap;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    cursor: default;
-    white-space: nowrap;
-    text-align: right;
+
+    font-weight: bold;
   }
 }
