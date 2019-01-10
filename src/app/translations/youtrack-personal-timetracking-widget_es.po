@@ -11,85 +11,85 @@ msgstr ""
 "Last-Translator: jetbrains <mikhail.vink@jetbrains.com>\n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
-"PO-Revision-Date: 2018-09-28 19:04\n"
+"PO-Revision-Date: 2018-12-23 21:02\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:52
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: src/app/personal-time-tracking-settings.js:60
 msgid "Cannot connect to selected YouTrack"
-msgstr ""
+msgstr "No se puede conectar al YouTrack seleccionado"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
 msgid "January|February|March|April|May|June|July|August|September|October|November|December"
-msgstr ""
+msgstr "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:89
 msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
-msgstr ""
+msgstr "Ene|Feb|Mar|Abr|May|Jun|Jul|Ago|Sep|Oct|Nov|Dic"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/http-error-handler/http-error-handler.js:4
 msgid "Oops! Something went wrong..."
-msgstr ""
+msgstr "¡Uy! Algo ha salido mal..."
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
-msgstr ""
+msgstr "Control del tiempo personal"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:45
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 #: src/app/personal-time-tracking-settings.js:79
 msgid "Select YouTrack"
-msgstr ""
+msgstr "Seleccionar YouTrack"
 
 #: src/app/personal-time-tracking-widget.js:292
 msgid "Show one more week"
-msgstr ""
+msgstr "Mostrar una semana más"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
 msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
-msgstr ""
+msgstr "Domingo|Lunes|Martes|Miércoles|Jueves|Viernes|Sábado"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:87
 msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
-msgstr ""
+msgstr "Dom|Lun|Mar|Mié|Jue|Vie|Sáb"
 
 #: src/app/period-statistics.js:139
 msgid "Today"
-msgstr ""
+msgstr "Hoy"
 
 #: src/app/personal-time-tracking-widget.js:255
 msgid "Total spent time for this week"
-msgstr ""
+msgstr "Tiempo total empleado esta semana"
 
 #: src/app/personal-time-tracking-widget.js:256
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
-msgstr ""
+msgstr "Tiempo total empleado durante {{numberOfWeeksToShow}} semanas"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:69
 msgid "Widget refreshes every minute"
-msgstr ""
+msgstr "El widget se actualiza cada minuto"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:70
 msgid "Widget refreshes every {{minutesCount}} minutes"
-msgstr ""
+msgstr "El widget se actualiza cada {{minutesCount}} minutos"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
-msgstr ""
+msgstr "a. m. |p. m."
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:64
 msgid "{{minutesCount}} min"
-msgstr ""
+msgstr "{{minutesCount}} min"
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"
-msgstr ""
+msgstr "{{type}} durante {{workPeriod}}"
 
 #: src/app/period-statistics.js:60
 msgid "{{working}} on {{issueName}}"
-msgstr ""
+msgstr "{{working}} en {{issueName}}"
 

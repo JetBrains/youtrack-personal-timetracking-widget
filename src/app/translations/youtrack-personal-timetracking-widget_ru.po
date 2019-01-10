@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: jetbrains <mikhail.vink@jetbrains.com>\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2018-09-28 19:04\n"
+"PO-Revision-Date: 2018-12-26 21:03\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:52
 msgid "Cancel"
@@ -19,35 +19,35 @@ msgstr "Отмена"
 
 #: src/app/personal-time-tracking-settings.js:60
 msgid "Cannot connect to selected YouTrack"
-msgstr ""
+msgstr "Невозможно подключиться к выбранному YouTrack"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
 msgid "January|February|March|April|May|June|July|August|September|October|November|December"
-msgstr ""
+msgstr "январь|февраль|март|апрель|май|июнь|июль|август|сентябрь|октябрь|ноябрь|декабрь"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:89
 msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
-msgstr ""
+msgstr "янв|фев|мар|апр|мая|июн|июл|авг|сен|окт|ноя|дек"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/http-error-handler/http-error-handler.js:4
 msgid "Oops! Something went wrong..."
-msgstr ""
+msgstr "К сожалению, возникла какая-то проблема..."
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
-msgstr ""
+msgstr "Персональный учет времени"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:45
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: src/app/personal-time-tracking-settings.js:79
 msgid "Select YouTrack"
-msgstr ""
+msgstr "Выберите YouTrack"
 
 #: src/app/personal-time-tracking-widget.js:292
 msgid "Show one more week"
-msgstr ""
+msgstr "Показать еще неделю"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
 msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
@@ -71,11 +71,11 @@ msgstr "Общее затраченное время за {{numberOfWeeksToShow}
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:69
 msgid "Widget refreshes every minute"
-msgstr ""
+msgstr "Виджет обновляется раз в минуту"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:70
 msgid "Widget refreshes every {{minutesCount}} minutes"
-msgstr ""
+msgstr "Виджет обновляется раз в {{minutesCount}} мин"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
@@ -83,13 +83,13 @@ msgstr "ДП|ПП"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:64
 msgid "{{minutesCount}} min"
-msgstr ""
+msgstr "{{minutesCount}} мин"
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"
-msgstr ""
+msgstr "{{type}}: {{workPeriod}}"
 
 #: src/app/period-statistics.js:60
 msgid "{{working}} on {{issueName}}"
-msgstr ""
+msgstr "{{working}} — {{issueName}}"
 
