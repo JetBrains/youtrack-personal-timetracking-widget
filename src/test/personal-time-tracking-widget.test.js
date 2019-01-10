@@ -1,5 +1,4 @@
 import 'babel-polyfill';
-import React from 'react';
 
 import Widget from '../app/personal-time-tracking-widget';
 
