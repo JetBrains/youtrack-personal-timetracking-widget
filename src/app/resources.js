@@ -2,7 +2,7 @@ const WORK_ITEM_FIELDS = 'workItems(id,duration(minutes,period),description,date
 const WORK_TIME_SETTINGS_FIELDS = 'minutesADay,daysAWeek,workDays';
 
 export async function myWorkItems(fetchYouTrack, from, to) {
-  return await fetchYouTrack(`api/admin/users/me/activity/timetracking?fields=${WORK_ITEM_FIELDS}&$start=${from}&$end=${to}`);
+  return await fetchYouTrack(`api/workItems?fields=${WORK_ITEM_FIELDS}&start=${from}&end=${to}&author=me`);
 }
 
 export async function workTimeSettings(fetchYouTrack) {

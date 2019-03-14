@@ -10,7 +10,7 @@
     "Hub": ">=2018.2"
   },
   "products": {
-    "YouTrack": ">2018.2.45513",
+    "YouTrack": ">=2019.1",
     "Hub": ">=2018.2"
   },
   "capabilities": {
