@@ -46,17 +46,11 @@ const WorkTimePresentation = {
       map(workItem => workItem.duration.minutes).
       reduce((accumulator, currentValue) => accumulator + currentValue, 0),
 
-  toUTC0: date => {
-    const utc = Date.UTC(date.getFullYear(),
-      date.getMonth(), date.getDate(), 0, 0, 0);
-    return new Date(utc);
-  },
+  toUTC0: date => Date.UTC(date.getUTCFullYear(),
+    date.getUTCMonth(), date.getUTCDate(), 0, 0, 0),
 
-  isToday: timestamp => {
-    const date = new Date(timestamp);
-    return WorkTimePresentation.toUTC0(new Date()).getTime() ===
-    WorkTimePresentation.toUTC0(date).getTime();
-  }
+  isToday: timestamp => WorkTimePresentation.toUTC0(new Date()) ===
+    timestamp
 
 };
 

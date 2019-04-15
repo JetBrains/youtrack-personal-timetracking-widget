@@ -78,8 +78,12 @@ class PeriodStatistics extends React.Component {
     );
   }
 
-  dateToString(timestampt) {
-    return fechaFormat(parseInt(timestampt, 10), 'ddd D MMM');
+  dateToString(timestamp) {
+    const date = new Date(timestamp);
+    const localDate = new Date(date.getUTCFullYear(),
+      date.getUTCMonth(), date.getUTCDate(),
+      0, 0, 0, 0);
+    return fechaFormat(localDate, 'ddd D MMM');
   }
 
   renderWorkItems(workItems) {

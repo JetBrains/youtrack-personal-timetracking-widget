@@ -48,22 +48,27 @@ class PersonalTimeTrackingWidget extends React.Component {
     }, 5 * 60 * millisInSec);
   }
 
-  weekPeriod(startWeek, numberOfWeeks, workDays) {
-    const startDay = workTimePresentation.toUTC0(new Date());
-    startDay.setDate(startDay.getDate() - 7 * startWeek);
+  weekPeriod(startWeek, numberOfWeeks) {
+    function atMidnight(date) {
+      date.setHours(0, 0, 0, 0);
+    }
 
-    const someWeeksAgo = workTimePresentation.toUTC0(new Date());
-    someWeeksAgo.setDate(someWeeksAgo.getDate() - (7 * numberOfWeeks - 1));
+    const startDay = new Date();
+    startDay.setDate(startDay.getDate() - 7 * startWeek);
+    atMidnight(startDay);
+
+    const someWeeksAgo = new Date();
+    someWeeksAgo.setDate(someWeeksAgo.getDate() - (7 * numberOfWeeks));
+    atMidnight(someWeeksAgo);
 
     const period = [];
-    const oneDay = 86400000;
 
-    for (let i = someWeeksAgo.getTime(); i <= startDay.getTime(); i += oneDay) {
-      const currentDayOfWeek = (new Date(i)).getDay();
-      const isWorkDay = workDays.indexOf(currentDayOfWeek) > -1;
-      if (isWorkDay) {
-        period.push(i);
-      }
+    let i = new Date(someWeeksAgo.getTime());
+    while (i.getTime() < startDay.getTime()) {
+      const clone = new Date(i.getTime());
+      clone.setDate(i.getDate() + 1);
+      period.push(clone);
+      i = clone;
     }
 
     return period;
@@ -98,8 +103,10 @@ class PersonalTimeTrackingWidget extends React.Component {
       numberOfWeeksLoaded + 6, workTimeSettings.workDays);
 
     const loadedWorkItems = (await myWorkItems(
-      fetcher, period[0], period[period.length - 1]
-    )).workItems;
+      fetcher,
+      workTimePresentation.toUTC0(period[0]),
+      workTimePresentation.toUTC0(period[period.length - 1])
+    ));
     const newWorkItems = (workItems || []).concat(loadedWorkItems);
     this.setState({
       numberOfWeeksLoaded: numberOfWeeksLoaded + 6,
@@ -244,8 +251,9 @@ class PersonalTimeTrackingWidget extends React.Component {
 
     const filteredWorkItems = (workItems || []).filter(
       workItem =>
-        workItem.date >= showPeriod[0] &&
-        workItem.date <= showPeriod[showPeriod.length - 1]
+        workItem.date >= workTimePresentation.toUTC0(showPeriod[0]) &&
+        workItem.date <= workTimePresentation.toUTC0(
+          showPeriod[showPeriod.length - 1])
     );
 
     const total = this.workPeriod(
@@ -264,11 +272,11 @@ class PersonalTimeTrackingWidget extends React.Component {
 
     const dates = Object.keys(byDates).map(it => parseInt(it, 10));
     showPeriod.forEach(date => {
-      if (dates.indexOf(date) === -1) {
-        dates.push(date);
+      const utcTimestamp = workTimePresentation.toUTC0(date);
+      if (dates.indexOf(utcTimestamp) === -1) {
+        dates.push(utcTimestamp);
       }
     });
-
     return (
       <div className="personal-time-tracking">
         <div className="personal-time-tracking__work-items">

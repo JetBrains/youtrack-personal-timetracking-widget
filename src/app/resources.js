@@ -1,4 +1,4 @@
-const WORK_ITEM_FIELDS = 'workItems(id,duration(minutes,period),description,date,issue(id,project(id),summary,idReadable,resolved),type(name),text)';
+const WORK_ITEM_FIELDS = 'id,duration(minutes,period),description,date,issue(id,project(id),summary,idReadable,resolved),type(name),text';
 const WORK_TIME_SETTINGS_FIELDS = 'minutesADay,daysAWeek,workDays';
 
 export async function myWorkItems(fetchYouTrack, from, to) {
