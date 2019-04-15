@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: jetbrains <mikhail.vink@jetbrains.com>\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2019-03-14 09:03\n"
+"PO-Revision-Date: 2019-04-15 09:36\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:52
 msgid "Cancel"
@@ -45,7 +45,7 @@ msgstr "Enregistrer"
 msgid "Select YouTrack"
 msgstr "Sélectionner YouTrack"
 
-#: src/app/personal-time-tracking-widget.js:292
+#: src/app/personal-time-tracking-widget.js:300
 msgid "Show one more week"
 msgstr "Afficher une semaine supplémentaire"
 
@@ -57,15 +57,15 @@ msgstr "Dimanche|Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi"
 msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
 msgstr "Dim|Lun|Mar|Mer|Jeu|Ven|Sam"
 
-#: src/app/period-statistics.js:139
+#: src/app/period-statistics.js:143
 msgid "Today"
 msgstr "Aujourd’hui"
 
-#: src/app/personal-time-tracking-widget.js:255
+#: src/app/personal-time-tracking-widget.js:263
 msgid "Total spent time for this week"
 msgstr "Temps total passé pour cette semaine"
 
-#: src/app/personal-time-tracking-widget.js:256
+#: src/app/personal-time-tracking-widget.js:264
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
 msgstr "Temps total passé pour {{numberOfWeeksToShow}} semaines"
 
