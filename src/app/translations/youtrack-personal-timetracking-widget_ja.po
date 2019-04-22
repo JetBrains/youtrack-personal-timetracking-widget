@@ -11,7 +11,7 @@ msgstr ""
 "Last-Translator: jetbrains <mikhail.vink@jetbrains.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2019-03-14 09:04\n"
+"PO-Revision-Date: 2019-04-15 09:37\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:52
 msgid "Cancel"
@@ -45,7 +45,7 @@ msgstr "保存"
 msgid "Select YouTrack"
 msgstr "YouTrackを選択"
 
-#: src/app/personal-time-tracking-widget.js:292
+#: src/app/personal-time-tracking-widget.js:300
 msgid "Show one more week"
 msgstr "さらに1週間表示"
 
@@ -57,15 +57,15 @@ msgstr "日曜日|月曜日|火曜日|水曜日|木曜日|金曜日|土曜日"
 msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
 msgstr "日|月|火|水|木|金|土"
 
-#: src/app/period-statistics.js:139
+#: src/app/period-statistics.js:143
 msgid "Today"
 msgstr "今日"
 
-#: src/app/personal-time-tracking-widget.js:255
+#: src/app/personal-time-tracking-widget.js:263
 msgid "Total spent time for this week"
 msgstr "今週の合計経過時間"
 
-#: src/app/personal-time-tracking-widget.js:256
+#: src/app/personal-time-tracking-widget.js:264
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
 msgstr "{{numberOfWeeksToShow}}週間の合計経過時間"
 
