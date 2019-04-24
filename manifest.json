@@ -7,7 +7,7 @@
   "author": "YouTrack Team",
   "dependencies": {
     "YouTrack": ">=2019.1.51078",
-    "Hub": ">=2019.1"
+    "Hub": ">=2018.2"
   },
   "products": {
     "YouTrack": ">=2019.1",
