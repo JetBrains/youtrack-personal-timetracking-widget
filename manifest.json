@@ -1,10 +1,10 @@
 {
   "key": "personal-time-tracking",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "Personal Time Tracking",
   "description": "Displays daily and cumulative totals for spent time that you have added to issues in YouTrack.",
   "applicationName": "YouTrack",
-  "author": "YouTrack Team",
+  "author": "JetBrains",
   "dependencies": {
     "YouTrack": ">=2019.1.51078",
     "Hub": ">=2018.2"
