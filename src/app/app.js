@@ -4,13 +4,12 @@ import 'hub-dashboard-addons/dashboard.css';
 import React from 'react';
 import {render} from 'react-dom';
 import DashboardAddons from 'hub-dashboard-addons';
-import {setLocale} from 'hub-dashboard-addons/dist/localization';
 
 import PersonalTimeTrackingWidget from './personal-time-tracking-widget';
-import TRANSLATIONS from './translations';
+import {initTranslations} from './translations';
 
 DashboardAddons.registerWidget(async (dashboardApi, registerWidgetApi) => {
-  setLocale(DashboardAddons.locale, TRANSLATIONS);
+  initTranslations(DashboardAddons.locale);
 
   return render(
     <PersonalTimeTrackingWidget
