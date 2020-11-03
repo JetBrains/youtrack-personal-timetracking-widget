@@ -2,94 +2,94 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: youtrackjetbrains\n"
+"Project-Id-Version: youtrack-custom-localization\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: youtrackjetbrains\n"
-"X-Crowdin-Project-ID: 295498\n"
-"X-Crowdin-Language: de\n"
+"X-Crowdin-Project: youtrack-custom-localization\n"
+"X-Crowdin-Project-ID: 309400\n"
+"X-Crowdin-Language: tr\n"
 "X-Crowdin-File: /widgets/youtrack-personal-timetracking-widget/default.pot\n"
-"X-Crowdin-File-ID: 30044\n"
-"Language-Team: German\n"
-"Language: de_DE\n"
-"PO-Revision-Date: 2020-11-03 12:36\n"
+"X-Crowdin-File-ID: 266642\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"PO-Revision-Date: 2020-11-03 19:03\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:58
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr ""
 
 #: src/app/personal-time-tracking-settings.js:60
 msgid "Cannot connect to selected YouTrack"
-msgstr "Zum ausgewählten YouTrack kann keine Verbindung aufgebaut werden"
+msgstr ""
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
 msgid "January|February|March|April|May|June|July|August|September|October|November|December"
-msgstr "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember"
+msgstr ""
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:89
 msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
-msgstr "Jan|Feb|Mär|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez"
+msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/http-error-handler/http-error-handler.js:4
 msgid "Oops! Something went wrong..."
-msgstr "Entschuldigung! Etwas ist schiefgegangen."
+msgstr ""
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
-msgstr "Persönliche Zeiterfassung"
+msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:47
 msgid "Save"
-msgstr "Speichern"
+msgstr ""
 
 #: src/app/personal-time-tracking-settings.js:79
 msgid "Select YouTrack"
-msgstr "YouTrack auswählen"
+msgstr ""
 
 #: src/app/personal-time-tracking-widget.js:300
 msgid "Show one more week"
-msgstr "Eine weitere Woche anzeigen"
+msgstr ""
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
 msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
-msgstr "Sonntag|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag"
+msgstr ""
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:87
 msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
-msgstr "So|Mo|Di|Mi|Do|Fr|Sa"
+msgstr ""
 
 #: src/app/period-statistics.js:143
 msgid "Today"
-msgstr "Heute"
+msgstr ""
 
 #: src/app/personal-time-tracking-widget.js:263
 msgid "Total spent time for this week"
-msgstr "Gesamter Zeitaufwand für diese Woche"
+msgstr ""
 
 #: src/app/personal-time-tracking-widget.js:264
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
-msgstr "Gesamter Zeitaufwand für {{numberOfWeeksToShow}} Wochen"
+msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:69
 msgid "Widget refreshes every minute"
-msgstr "Widget wird jede Minute aktualisiert"
+msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:70
 msgid "Widget refreshes every {{minutesCount}} minutes"
-msgstr "Widget wird alle {{minutesCount}} Minuten aktualisiert"
+msgstr ""
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
-msgstr "AM|PM"
+msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:64
 msgid "{{minutesCount}} min"
-msgstr "{{minutesCount}} Min."
+msgstr ""
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"
-msgstr "{{type}} für {{workPeriod}}"
+msgstr ""
 
 #: src/app/period-statistics.js:60
 msgid "{{working}} on {{issueName}}"
-msgstr "{{working}} an {{issueName}}"
+msgstr ""
 

@@ -2,94 +2,94 @@ msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Project-Id-Version: youtrackjetbrains\n"
+"Project-Id-Version: youtrack-custom-localization\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: youtrackjetbrains\n"
-"X-Crowdin-Project-ID: 295498\n"
-"X-Crowdin-Language: de\n"
+"X-Crowdin-Project: youtrack-custom-localization\n"
+"X-Crowdin-Project-ID: 309400\n"
+"X-Crowdin-Language: zu\n"
 "X-Crowdin-File: /widgets/youtrack-personal-timetracking-widget/default.pot\n"
-"X-Crowdin-File-ID: 30044\n"
-"Language-Team: German\n"
-"Language: de_DE\n"
-"PO-Revision-Date: 2020-11-03 12:36\n"
+"X-Crowdin-File-ID: 266642\n"
+"Language-Team: Zulu\n"
+"Language: zu_ZA\n"
+"PO-Revision-Date: 2020-11-03 19:04\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:58
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "crwdns12658662:0crwdne12658662:0"
 
 #: src/app/personal-time-tracking-settings.js:60
 msgid "Cannot connect to selected YouTrack"
-msgstr "Zum ausgewählten YouTrack kann keine Verbindung aufgebaut werden"
+msgstr "crwdns12658664:0crwdne12658664:0"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
 msgid "January|February|March|April|May|June|July|August|September|October|November|December"
-msgstr "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember"
+msgstr "crwdns12658666:0crwdne12658666:0"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:89
 msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
-msgstr "Jan|Feb|Mär|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez"
+msgstr "crwdns12658668:0crwdne12658668:0"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/http-error-handler/http-error-handler.js:4
 msgid "Oops! Something went wrong..."
-msgstr "Entschuldigung! Etwas ist schiefgegangen."
+msgstr "crwdns12658670:0crwdne12658670:0"
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
-msgstr "Persönliche Zeiterfassung"
+msgstr "crwdns12658672:0crwdne12658672:0"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:47
 msgid "Save"
-msgstr "Speichern"
+msgstr "crwdns12658674:0crwdne12658674:0"
 
 #: src/app/personal-time-tracking-settings.js:79
 msgid "Select YouTrack"
-msgstr "YouTrack auswählen"
+msgstr "crwdns12658676:0crwdne12658676:0"
 
 #: src/app/personal-time-tracking-widget.js:300
 msgid "Show one more week"
-msgstr "Eine weitere Woche anzeigen"
+msgstr "crwdns12658678:0crwdne12658678:0"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
 msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
-msgstr "Sonntag|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag"
+msgstr "crwdns12658680:0crwdne12658680:0"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:87
 msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
-msgstr "So|Mo|Di|Mi|Do|Fr|Sa"
+msgstr "crwdns12658682:0crwdne12658682:0"
 
 #: src/app/period-statistics.js:143
 msgid "Today"
-msgstr "Heute"
+msgstr "crwdns12658684:0crwdne12658684:0"
 
 #: src/app/personal-time-tracking-widget.js:263
 msgid "Total spent time for this week"
-msgstr "Gesamter Zeitaufwand für diese Woche"
+msgstr "crwdns12658686:0crwdne12658686:0"
 
 #: src/app/personal-time-tracking-widget.js:264
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
-msgstr "Gesamter Zeitaufwand für {{numberOfWeeksToShow}} Wochen"
+msgstr "crwdns12658688:0{{numberOfWeeksToShow}}crwdne12658688:0"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:69
 msgid "Widget refreshes every minute"
-msgstr "Widget wird jede Minute aktualisiert"
+msgstr "crwdns12658690:0crwdne12658690:0"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:70
 msgid "Widget refreshes every {{minutesCount}} minutes"
-msgstr "Widget wird alle {{minutesCount}} Minuten aktualisiert"
+msgstr "crwdns12658692:0{{minutesCount}}crwdne12658692:0"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
-msgstr "AM|PM"
+msgstr "crwdns12658694:0crwdne12658694:0"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:64
 msgid "{{minutesCount}} min"
-msgstr "{{minutesCount}} Min."
+msgstr "crwdns12658696:0{{minutesCount}}crwdne12658696:0"
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"
-msgstr "{{type}} für {{workPeriod}}"
+msgstr "crwdns12658698:0{{type}}crwdnd12658698:0{{workPeriod}}crwdne12658698:0"
 
 #: src/app/period-statistics.js:60
 msgid "{{working}} on {{issueName}}"
-msgstr "{{working}} an {{issueName}}"
+msgstr "crwdns12658700:0{{working}}crwdnd12658700:0{{issueName}}crwdne12658700:0"
 
