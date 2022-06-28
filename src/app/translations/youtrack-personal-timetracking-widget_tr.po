@@ -11,7 +11,7 @@ msgstr ""
 "X-Crowdin-File-ID: 266642\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2020-11-03 21:17\n"
+"PO-Revision-Date: 2022-06-28 20:47\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:58
 msgid "Cancel"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/http-error-handler/http-error-handler.js:4
 msgid "Oops! Something went wrong..."
-msgstr ""
+msgstr "Hoppala! Bir şeyler ters gitti..."
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:70
 msgid "Widget refreshes every {{minutesCount}} minutes"
-msgstr ""
+msgstr "Widget {{minutesCount}} dakikada bir yenilenmekte"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:64
 msgid "{{minutesCount}} min"
-msgstr ""
+msgstr "{{minutesCount}} dk"
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"

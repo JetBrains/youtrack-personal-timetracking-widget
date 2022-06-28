@@ -11,7 +11,7 @@ msgstr ""
 "X-Crowdin-File-ID: 266642\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
-"PO-Revision-Date: 2020-11-03 21:17\n"
+"PO-Revision-Date: 2022-06-28 20:47\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:58
 msgid "Cancel"
@@ -59,7 +59,7 @@ msgstr "N|Po|Wt|Śr|Cz|Pt|So"
 
 #: src/app/period-statistics.js:143
 msgid "Today"
-msgstr ""
+msgstr "Dziś"
 
 #: src/app/personal-time-tracking-widget.js:263
 msgid "Total spent time for this week"

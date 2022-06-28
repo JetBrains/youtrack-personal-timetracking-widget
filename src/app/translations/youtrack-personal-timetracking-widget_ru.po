@@ -11,7 +11,7 @@ msgstr ""
 "X-Crowdin-File-ID: 30044\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2020-11-03 21:14\n"
+"PO-Revision-Date: 2022-06-28 14:06\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:58
 msgid "Cancel"
@@ -55,7 +55,7 @@ msgstr "воскресенье|понедельник|вторник|среда|
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:87
 msgid "Sun|Mon|Tue|Wed|Thu|Fri|Sat"
-msgstr "вск|пнд|втр|срд|чтв|птн|сбт"
+msgstr "вс|пн|вт|ср|чт|пт|сб"
 
 #: src/app/period-statistics.js:143
 msgid "Today"
