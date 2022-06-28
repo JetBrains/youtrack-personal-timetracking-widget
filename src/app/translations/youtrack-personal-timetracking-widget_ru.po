@@ -11,7 +11,7 @@ msgstr ""
 "X-Crowdin-File-ID: 30044\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2022-06-28 14:06\n"
+"PO-Revision-Date: 2022-06-28 22:25\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:58
 msgid "Cancel"
