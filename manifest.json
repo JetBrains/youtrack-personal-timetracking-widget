@@ -1,6 +1,6 @@
 {
   "key": "personal-time-tracking",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "name": "Personal Time Tracking",
   "description": "Displays daily and cumulative totals for spent time that you have added to issues in YouTrack.",
   "applicationName": "YouTrack",
