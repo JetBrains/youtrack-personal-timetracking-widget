@@ -11,7 +11,7 @@ msgstr ""
 "X-Crowdin-File-ID: 266642\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2022-06-28 22:29\n"
+"PO-Revision-Date: 2023-08-23 10:10\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:58
 msgid "Cancel"
@@ -19,7 +19,7 @@ msgstr "Скасувати"
 
 #: src/app/personal-time-tracking-settings.js:60
 msgid "Cannot connect to selected YouTrack"
-msgstr ""
+msgstr "Неможливо підключитися до вибраного екземпляра YouTrack"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
 msgid "January|February|March|April|May|June|July|August|September|October|November|December"
@@ -31,11 +31,11 @@ msgstr "Січ|Лют|Бер|Кві|Тра|Чер|Лип|Сер|Вер|Жов|Л
 
 #: node_modules/@jetbrains/hub-widget-ui/src/http-error-handler/http-error-handler.js:4
 msgid "Oops! Something went wrong..."
-msgstr ""
+msgstr "Отакої! Щось пішло не так…"
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
-msgstr ""
+msgstr "Відстеження особистого часу"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:47
 msgid "Save"
@@ -43,11 +43,11 @@ msgstr "Зберегти"
 
 #: src/app/personal-time-tracking-settings.js:79
 msgid "Select YouTrack"
-msgstr ""
+msgstr "Виберіть YouTrack"
 
 #: src/app/personal-time-tracking-widget.js:300
 msgid "Show one more week"
-msgstr ""
+msgstr "Показати ще один тиждень"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
 msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
@@ -59,37 +59,37 @@ msgstr "Нд|Пн|Вт|Ср|Чт|Пт|Сб"
 
 #: src/app/period-statistics.js:143
 msgid "Today"
-msgstr ""
+msgstr "Сьогодні"
 
 #: src/app/personal-time-tracking-widget.js:263
 msgid "Total spent time for this week"
-msgstr ""
+msgstr "Загальний час, витрачений за цей тиждень"
 
 #: src/app/personal-time-tracking-widget.js:264
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
-msgstr ""
+msgstr "Загальний час, витрачений за {{numberOfWeeksToShow}} тиж."
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:69
 msgid "Widget refreshes every minute"
-msgstr ""
+msgstr "Віджет оновлюється щохвилини"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:70
 msgid "Widget refreshes every {{minutesCount}} minutes"
-msgstr ""
+msgstr "Віджет оновлюється з інтервалом у {{minutesCount}} хв"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
-msgstr ""
+msgstr "дп|пп"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:64
 msgid "{{minutesCount}} min"
-msgstr ""
+msgstr "{{minutesCount}} хв"
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"
-msgstr ""
+msgstr "{{type}} для {{workPeriod}}"
 
 #: src/app/period-statistics.js:60
 msgid "{{working}} on {{issueName}}"
-msgstr ""
+msgstr "{{working}} над завданням {{issueName}}"
 

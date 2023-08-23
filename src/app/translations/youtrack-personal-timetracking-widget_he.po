@@ -11,15 +11,15 @@ msgstr ""
 "X-Crowdin-File-ID: 266642\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2022-06-28 22:28\n"
+"PO-Revision-Date: 2023-08-23 10:08\n"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:58
 msgid "Cancel"
-msgstr ""
+msgstr "ביטול"
 
 #: src/app/personal-time-tracking-settings.js:60
 msgid "Cannot connect to selected YouTrack"
-msgstr ""
+msgstr "אין אפשרות להתחבר למופע ה-YouTrack שנבחר"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:90
 msgid "January|February|March|April|May|June|July|August|September|October|November|December"
@@ -27,15 +27,15 @@ msgstr "ינואר|פברואר|מרץ|אפריל|מאי|יוני|יולי|או�
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:89
 msgid "Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
-msgstr ""
+msgstr "ינו'|פבר'|מרץ|אפר'|מאי|יונ'|יול'|אוג'|ספט'|אוק'|נוב'|דצמ'"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/http-error-handler/http-error-handler.js:4
 msgid "Oops! Something went wrong..."
-msgstr ""
+msgstr "אופס! משהו השתבש..."
 
 #: src/app/personal-time-tracking-widget.js:37
 msgid "Personal Time Tracking"
-msgstr ""
+msgstr "מעקב אחר זמן אישי"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/configuration-form/configuration-form.js:47
 msgid "Save"
@@ -43,11 +43,11 @@ msgstr "שמור"
 
 #: src/app/personal-time-tracking-settings.js:79
 msgid "Select YouTrack"
-msgstr ""
+msgstr "בחירת מופע YouTrack"
 
 #: src/app/personal-time-tracking-widget.js:300
 msgid "Show one more week"
-msgstr ""
+msgstr "להציג שבוע אחד נוסף"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:88
 msgid "Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday"
@@ -63,7 +63,7 @@ msgstr "היום"
 
 #: src/app/personal-time-tracking-widget.js:263
 msgid "Total spent time for this week"
-msgstr ""
+msgstr "סה\"כ זמן שהושקע השבוע"
 
 #: src/app/personal-time-tracking-widget.js:264
 msgid "Total spent time for {{numberOfWeeksToShow}} weeks"
@@ -75,11 +75,11 @@ msgstr ""
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:70
 msgid "Widget refreshes every {{minutesCount}} minutes"
-msgstr ""
+msgstr "הווידג'ט מתרענן כל {{minutesCount}} דקות"
 
 #: node_modules/hub-dashboard-addons/components/localization/src/localization.js:91
 msgid "am|pm"
-msgstr ""
+msgstr "לפנ\"צ|אחה\"צ"
 
 #: node_modules/@jetbrains/hub-widget-ui/src/refresh-period/refresh-period.js:64
 msgid "{{minutesCount}} min"
@@ -87,9 +87,9 @@ msgstr "{{minutesCount}} דקות"
 
 #: src/app/period-statistics.js:57
 msgid "{{type}} for {{workPeriod}}"
-msgstr ""
+msgstr "{{type}} עובר {{workPeriod}}"
 
 #: src/app/period-statistics.js:60
 msgid "{{working}} on {{issueName}}"
-msgstr ""
+msgstr "{{working}} על {{issueName}}"
 
