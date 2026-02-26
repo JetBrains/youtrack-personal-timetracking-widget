@@ -1,6 +1,12 @@
 # YouTrack Personal Time Tracking
 
-[![JetBrains team project](http://jb.gg/badges/team.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![obsolete JetBrains project](https://jb.gg/badges/obsolete-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
+---
+
+### Important: the repository is archived. Widget is converted into YouTrack App and is now hosted [here](https://github.com/JetBrains/youtrack-apps/tree/main/migrated-hub-widgets/time-tracking-dashboard-widgets/widgets/personal-time-tracking)
+
+---
 
 [YouTrack](https://www.jetbrains.com/youtrack/) dashboard widget, which displays daily and cumulative totals for spent time that you have added to issues in YouTrack.
 
